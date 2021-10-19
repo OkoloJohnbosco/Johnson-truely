@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html,
 body {
   padding: 0;
@@ -14,3 +21,31 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.nav-active {
+position: relative;
+}
+
+.nav-active::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #FBB405;
+}
+
+button.nav-item {
+  padding: 5px 12px;
+  border-radius: 6px;
+  background-color: #FBB405;
+}
+
+/*.nav-active::after {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  border: 2px solid ;
+} */
