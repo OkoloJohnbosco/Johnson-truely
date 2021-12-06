@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import { Box, Button } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 function NavLink({ href, exact, children, isButton, ...props }) {
   const { pathname } = useRouter();
@@ -20,10 +20,11 @@ function NavLink({ href, exact, children, isButton, ...props }) {
   return (
     <Link href={href} passHref>
       <Box
-        as={isButton ? "Button" : "a"}
+        as={isButton ? "button" : "a"}
         {...activeStyles}
         {...props}
-        fontWeight="semi-bold"
+        fontWeight="bold"
+        fontSize="0.9rem"
       >
         {children}
       </Box>

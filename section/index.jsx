@@ -1,3 +1,9 @@
 export { default as Footer } from "./Footer/Footer";
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as ProjectHeader } from "./ProjectHeader/ProjectHeader";
+export { default as Doings } from "./Doings/Doings";
+export { default as ProjectDisplay } from "./ProjectDisplay/ProjectDisplay";
+export { default as projectList } from "./ProjectDisplay/projects";
+export { default as doingsList } from "./Doings/doingsList";
+export { default as Introduction } from "./Introduction/Introduction";
+export { default as VcBox } from "./VcBox/VcBox";
