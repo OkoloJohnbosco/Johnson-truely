@@ -77,7 +77,7 @@ export default function Home() {
 
           <Box textAlign="center" mt="30px">
             <Text fontWeight="bold" fontFamily="Manrope">
-              This is where i come in
+              This is where I come in
             </Text>
             <Box pt="30px">
               <IconButton

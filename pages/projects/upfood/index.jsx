@@ -300,7 +300,7 @@ function index() {
                 fontFamily="Inter"
                 color="rgba(20, 33, 255, 0.3)"
               >
-                Sharechaw
+                Sinmi
               </Heading>
             </Box>
           </Stack>
