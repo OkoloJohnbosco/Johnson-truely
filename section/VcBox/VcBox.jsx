@@ -22,8 +22,8 @@ function VcBox() {
           <Box opacity="90%" maxW="800px" mt="15px">
             <Text>
               As an autodidact polymath, I love learning new things that impacts
-              my life and the world. Make sure to explore my publication where i
-              journal my journey into venture capital and more concepts that i’m
+              my life and the world. Make sure to explore my publication where I
+              journal my journey into venture capital and more concepts that I’m
               currently working on.
             </Text>
           </Box>

@@ -16,7 +16,7 @@ const projects = [
   { title: "Sinmi", path: "projects/sinmi" },
   { title: "Sharechaw", path: "projects/sharechaw" },
   { title: "Meet me", path: "meet-me" },
-  { title: "Press kit" },
+  { title: "Press kit", path: "press-kit" },
 ];
 
 function Footer() {

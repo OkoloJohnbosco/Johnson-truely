@@ -7,7 +7,7 @@ const navLinks = [
     exact: false,
     className: "nav-item",
   },
-  { name: "Projects", href: "/project", exact: false, className: "nav-item" },
+  // { name: "Projects", href: "/project", exact: false, className: "nav-item" },
   {
     name: "Talk to me",
     href: "/talk-to",

@@ -5,7 +5,7 @@ function Introduction({ boxRef }) {
   return (
     <Box maxW="700px" ref={boxRef} pt="20px">
       <Text color="#FBB405" fontWeight="700" fontFamily="DM Sans">
-        I’m Johnson, a UX & Textroduct Designer
+        I’m Johnson, a UX & Product Designer
       </Text>
       <Box mb="30px" mt="20px">
         <Heading
@@ -19,7 +19,7 @@ function Introduction({ boxRef }) {
           goals into great digital products that make your business thrive".
         </Heading>
       </Box>
-      <Text color="#FBB405">How i do it</Text>
+      <Text color="#FBB405">How I do it</Text>
     </Box>
   );
 }
